@@ -20,24 +20,24 @@
 pannellum.viewer('panorama', {   
     "default": {
         "firstScene": "circle",
-        "author": "Home A",
+        "author": "Matthew Petroff",
         "sceneFadeDuration": 1000
     },
 
     "scenes": {
         "circle": {
-            "title": "Front of Home A",
+            "title": "Mason Circle",
             "hfov": 110,
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
-            "panorama": "/01.jpg",
+            "panorama": "/images/from-tree.jpg",
             "hotSpots": [
                 {
                     "pitch": -2.1,
                     "yaw": 132.9,
                     "type": "scene",
-                    "text": "Living Room",
+                    "text": "Spring House or Dairy",
                     "sceneId": "house"
                 }
             ]
@@ -48,7 +48,7 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "/02.jpg",
+            "panorama": "/images/bma-0.jpg",
             "hotSpots": [
                 {
                     "pitch": -0.6,
